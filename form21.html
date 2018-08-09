@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><center>FORM 21</center></title>
+        <style>
+    table{
+    width: 100%;
+}
+tr, th, td {
+    border: 1px solid black;
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #1f6893;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+            fieldset{
+                width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #1f6893;
+    border-radius: 4px;
+    box-sizing: border-box;
+            }
+
+        .topnav{
+  overflow: hidden;
+  background-color: rgba(205, 205, 205, 0.25);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #296780;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+</style>
+</head>
+<div class="header">
+   <div class="topnav" id="myTopnav">
+       <a href="index.html" class="active">Home</a>
+       <a href="Procurement%20Services.html" class="active">Procurement Services</a>
+   </div>
+</div>
+<body>
+<div class="container">
+
+
+    <h2><center>FORM 21</center></h2>
+  <form  action="" method="post" role="form">
+    {{ form.csrf }}
+    <br class="form-group">
+      <li><center>THE PUBLIC PROCUREMENT AND DISPOSAL OF PUBLIC ASSETS ACT,2003</center></li>
+      <br>
+      <li><center><strong>RECORD OF MINUTES OF PRE-PROPOSAL MEETING</strong></center></li>
+      <br>
+       <fieldset>
+           <legend><center><strong>procurement reference number</strong></center></legend>
+        <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+            <table>
+  <thead>
+  <tr>
+     <th>code of procuring and disposing entity   </th>
+     <th>Supplies/Works/Non-consultancy services  </th>
+     <th>financial year  </th>
+     <th>sequence number</th>
+  </tr>
+  </thead>
+  <tfoot>
+  <tr>
+      <td><INPUT name="code"></td>
+      <td><INPUT name="works"></td>
+      <td><INPUT name="year"></td>
+      <td><INPUT name="sequence"></td>
+  </tr>
+  </tfoot>
+  <tbody>
+  <tr>
+  </tr>
+  </tbody>
+            </table>
+          </div>
+          </div>
+       </fieldset>
+        <br>
+      <br>
+
+         <fieldset>
+
+      <label><center><strong>Particulars of Procurement</strong></center></label>
+           <span class="form-sub-label-container" style="mso-horizontal-page-align:left">
+
+            <label class="form-label form-label-top" for="subject of procurement" id="label_12_subject of procurement" style="min-height:13px">subject of procurement:</label>
+              <input type="text" id="subject of procurement" name="[subject of procurement]" class="form-textbox" size= "90" value="" data-component="subject of procurement" required="" />
+              <br>
+              <br>
+
+               <label class="form-label form-label-top" for="location of pre-proposal meeting" id="label_12_location of pre-proposal meeting" style="min-height:13px">Location of Pre-proposal Meeting:</label>
+            <input type="text" id="location of pre-proposal meeting"   name="[location of pre-proposal meeting]" class="form-textbox" size="50" value="" data-component="location of pre-proposal meeting" required="" />
+              <br>
+              <br>
+
+               <label class="form-label form-label-top" for="date and time meeting" id="label_12_date and time meeting" style="min-height:13px">Date and time Meeting:</label>
+              <input type="text" id="date and time meeting" name="[date and time meeting]" class="form-textbox" size="50" value="" data-component="date and time meeting" required="" />
+              <br>
+              <br>
+           </span>
+         </fieldset>
+      <br>
+      <br>
+
+
+      <fieldset>
+          <label><center><strong>Record of Pre-bid Meeting Minutes</strong></center></label>
+           <table>
+  <thead>
+  <th>Question asked</th>
+     <th>Response given</th>
+
+  </tr>
+  </thead>
+  <tfoot>
+  <tr>
+      <td width="90"><INPUT name="question asked."></td>
+      <td><INPUT name="response given"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="question asked."></td>
+      <td><INPUT name="response given"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="question asked."></td>
+      <td><INPUT name="response given"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="question asked."></td>
+      <td><INPUT name="response given"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="question asked."></td>
+      <td><INPUT name="response given"></td>
+
+  </tr>
+  </tfoot>
+
+   <tfoot>
+  <tr>
+      <td><INPUT name="question asked."></td>
+      <td><INPUT name="response given"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="question asked."></td>
+      <td><INPUT name="response given"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="question asked."></td>
+      <td><INPUT name="response given"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="question asked."></td>
+      <td><INPUT name="response given"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="question asked."></td>
+      <td><INPUT name="response given"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="question asked."></td>
+      <td><INPUT name="response given"></td>
+
+  </tr>
+  </tfoot>
+           </table>
+      </fieldset>
+
+      <br>
+      <li><strong>Certification of minutes as a true record of proceedings of the meeting:</strong></li>
+      <br>
+      <br>
+       <label class="form-label form-label-top" for="name" id="label_12_name" style="min-height:13px">Name:</label>
+              <input type="text" id="name" name="[name]" class="form-textbox" size="50" value="" data-component="name" required="" />
+              <br>
+          <br>
+
+          <label class="desc notranslate" id="title125" for="Field125">Do you accept or not(yes/no):</label>
+          <select class="form-dropdown validate[required] form-signature" name="signature" id="input_5_signature" data-component="signature" required="">
+						<option value=""> Please Select </option>
+                      <option value="yes">Yes </option>
+                      <option value="no"> No</option>
+					</select>
+                  </span>
+      <br>
+          <br>
+            <label class="form-label form-label-top" for="position" id="label_12_position" style="min-height:13px">Position:</label>
+                <li><strong>Chairperson of meeting</strong></li>
+              <br>
+          <br>
+
+            <label class="form-label form-label-top" for="date" id="label_12_date" style="min-height:13px">Date:</label>
+              <input type="text" id="date" name="[date]" class="form-textbox" size="50" value="" data-component="date" required="" />
+              <br>
+          </span>
+          <br>
+          <br>
+
+      <li>Record of pre-proposal meeting to be sent to all bidders who purchased or were issued with the bidding documents</li>
+      <br>
+      <fieldset>
+          <label><strong><center>RECORD OF ATTENDANCE</center></strong></label>
+
+           <table>
+  <thead>
+  <tr>
+     <th>No</th>
+     <th>Name</th>
+      <th>Address</th>
+     <th>Position</th>
+     <th>Company or department</th>
+     <th>Signature</th>
+  </tr>
+  </thead>
+  <tfoot>
+  <tr>
+      <td><INPUT name="No"></td>
+      <td><INPUT name="name"></td>
+      <td><INPUT name="address"></td>
+      <td><INPUT name="position"></td>
+      <td><INPUT name="company or department"></td>
+      <td><select size="1" id="row-5-office" name="signature">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="No"></td>
+      <td><INPUT name="name"></td>
+      <td><INPUT name="address"></td>
+      <td><INPUT name="position"></td>
+      <td><INPUT name="company or department"></td>
+      <td><select size="1" id="row-5-office" name="signature">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="No"></td>
+      <td><INPUT name="name"></td>
+      <td><INPUT name="address"></td>
+      <td><INPUT name="position"></td>
+      <td><INPUT name="company or department"></td>
+      <td><select size="1" id="row-5-office" name="signature">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="No"></td>
+      <td><INPUT name="name"></td>
+      <td><INPUT name="address"></td>
+      <td><INPUT name="position"></td>
+      <td><INPUT name="company or department"></td>
+      <td><select size="1" id="row-5-office" name="signature">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="No"></td>
+      <td><INPUT name="name"></td>
+      <td><INPUT name="address"></td>
+      <td><INPUT name="position"></td>
+      <td><INPUT name="company or department"></td>
+      <td><select size="1" id="row-5-office" name="signature">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+  </tr>
+  </tfoot>
+
+   <tfoot>
+  <tr>
+      <td><INPUT name="No"></td>
+      <td><INPUT name="name"></td>
+      <td><INPUT name="address"></td>
+      <td><INPUT name="position"></td>
+      <td><INPUT name="company or department"></td>
+      <td><select size="1" id="row-5-office" name="signature">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="No"></td>
+      <td><INPUT name="name"></td>
+      <td><INPUT name="address"></td>
+      <td><INPUT name="position"></td>
+      <td><INPUT name="company or department"></td>
+      <td><select size="1" id="row-5-office" name="signature">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+  </tr>
+  </tfoot>
+            </table>
+
+      </fieldset>
+  </form>
+</div>
+
+</body>
+</html>

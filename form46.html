@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><center>FORM 46</center></title>
+        <style>
+    table{
+    width: 100%;
+}
+tr, th, td {
+    border: 1px solid black;
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #1f6893;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+            fieldset{
+                width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #1f6893;
+    border-radius: 4px;
+    box-sizing: border-box;
+            }
+
+        .topnav{
+  overflow: hidden;
+  background-color: rgba(205, 205, 205, 0.25);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #296780;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+</style>
+</head>
+<div class="header">
+   <div class="topnav" id="myTopnav">
+       <a href="index.html" class="active">Home</a>
+       <a href="Procurement%20Services.html" class="active">Procurement Services</a>
+   </div>
+</div>
+<body>
+<div class="container">
+
+
+    <h2><center>FORM 46</center></h2>
+  <form  action="" method="post" role="form">
+    {{ form.csrf }}
+    <br class="form-group">
+      <li><center>THE PUBLIC PROCUREMENT AND DISPOSAL OF PUBLIC ASSETS ACT,2003</center></li>
+      <br>
+      <li><center><strong>NEGOTIATIONS PLAN</strong></center></li>
+      <br>
+       <fieldset>
+           <legend><center><strong>Disposal Reference Number</strong></center></legend>
+        <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+            <table>
+  <thead>
+  <tr>
+     <th>code of procuring and disposing entity</th>
+     <th>Supplies/Works/Non-consultancy services</th>
+     <th>financial year</th>
+     <th>sequence number</th>
+  </tr>
+  </thead>
+  <tfoot>
+  <tr>
+      <td><INPUT name="code"></td>
+      <td><INPUT name="works"></td>
+      <td><INPUT name="year"></td>
+      <td><INPUT name="sequence"></td>
+  </tr>
+  </tfoot>
+  <tbody>
+  <tr>
+  </tr>
+  </tbody>
+            </table>
+          </div>
+          </div>
+       </fieldset>
+        <br>
+      <br>
+
+         <fieldset>
+
+      <label><center><strong>Particulars of Disposal</strong></center></label>
+           <span class="form-sub-label-container" style="mso-horizontal-page-align:left">
+
+            <label class="form-label form-label-top" for="subject of disposal" id="label_12_subject of disposal" style="min-height:13px">subject of disposal:</label>
+              <input type="text" id="subject of disposal" name="[subject of disposal]" class="form-textbox" size= "90" value="" data-component="subject of disposal" required="" />
+              <br>
+              <br>
+
+               <label class="form-label form-label-top" for="name of bidder" id="label_12_name of bidder" style="min-height:13px">Name of bidder:</label>
+            <input type="text" id="name of bidder"  name="[name of bidder]" class="form-textbox" size="50" value="" data-component="name of bidder" required="" />
+              <br>
+              <br>
+
+           </span>
+         </fieldset>
+      <br>
+  <br>
+      <fieldset>
+          <label><center><strong>Details of the negotiations</strong></center></label>
+
+          <table>
+  <thead>
+  <tr>
+     <th>Issue for negotiation</th>
+     <th>Objectives</th>
+     <th>Negotiation parameters</th>
+     </tr>
+  </thead>
+  <tfoot>
+  <tr>
+      <td><INPUT name="Issue for negotiation"></td>
+      <td><INPUT name="Objectives"></td>
+      <td><INPUT name="Negotiation parameters"></td>
+  </tr>
+  </tfoot>
+
+   <tfoot>
+  <tr>
+      <td><INPUT name="Issue for negotiation"></td>
+      <td><INPUT name="Objectives"></td>
+      <td><INPUT name="Negotiation parameters"></td>
+  </tr>
+  </tfoot>
+
+   <tfoot>
+  <tr>
+      <td><INPUT name="Issue for negotiation"></td>
+      <td><INPUT name="Objectives"></td>
+      <td><INPUT name="Negotiation parameters"></td>
+  </tr>
+  </tfoot>
+
+   <tfoot>
+  <tr>
+      <td><INPUT name="Issue for negotiation"></td>
+      <td><INPUT name="Objectives"></td>
+      <td><INPUT name="Negotiation parameters"></td>
+  </tr>
+  </tfoot>
+
+
+   <tfoot>
+  <tr>
+      <td><INPUT name="Issue for negotiation"></td>
+      <td><INPUT name="Objectives"></td>
+      <td><INPUT name="Negotiation parameters"></td>
+  </tr>
+  </tfoot>
+          </table>
+      </fieldset>
+      <br>
+      <br>
+
+       <label class="form-label form-label-top" for="name" id="label_12_name" style="min-height:13px">Name:</label>
+              <input type="text" id="name" name="[name]" class="form-textbox" size="50" value="" data-component="name" required="" />
+              <br>
+          <br>
+
+          <label class="desc notranslate" id="title125" for="Field125">Do you accept or not(yes/no):</label>
+          <select class="form-dropdown validate[required] form-signature" name="signature" id="input_5_signature" data-component="signature" required="">
+						<option value=""> Please Select </option>
+                      <option value="yes">Yes </option>
+                      <option value="no"> No</option>
+					</select>
+                  </span>
+      <br>
+          <br>
+            <label class="form-label form-label-top" for="position" id="label_12_position" style="min-height:13px">Position:</label>
+              <input type="text" id="position" name="[position]" class="form-textbox" size="50" value="" data-component="position" required="" />
+              <br>
+          <br>
+
+            <label class="form-label form-label-top" for="date" id="label_12_date" style="min-height:13px">Date:</label>
+              <input type="text" id="date" name="[date]" class="form-textbox" size="50" value="" data-component="date" required="" />
+              <br>
+          </span>
+          <br>
+          <br>
+
+  </form>
+</div>
+</body>
+</html>

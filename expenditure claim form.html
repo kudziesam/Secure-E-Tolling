@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><center>Expenditure claim form</center></title>
+        <style>
+    table{
+    width: 100%;
+}
+tr, th, td {
+    border: 1px solid black;
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #1f6893;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+            fieldset{
+                width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #1f6893;
+    border-radius: 4px;
+    box-sizing: border-box;
+            }
+
+        .topnav{
+  overflow: hidden;
+  background-color: rgba(205, 205, 205, 0.25);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #296780;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+</style>
+</head>
+<div class="header">
+   <div class="topnav" id="myTopnav">
+       <a href="index.html" class="active">Home</a>
+       <a href="Procurement%20Services.html" class="active">Procurement Services</a>
+   </div>
+</div>
+<body>
+<div class="container">
+
+
+    <h2><center>EXPENDITURE CLAIM FORM</center></h2>
+  <form  action="" method="post" role="form">
+    {{ form.csrf }}
+    <br class="form-group">
+
+            <label class="form-label form-label-top" for="date" id="label_12_date" style="min-height:13px"><strong>Date:</strong></label>
+              <input type="text" id="date" name="[date]" class="form-textbox" size="50" value="" data-component="date" required="" />
+              <br>
+              <br>
+
+            <label class="form-label form-label-top" for="to" id="label_12_to" style="min-height:13px"><strong>To:</strong></label>
+            <input type="text" id="to" name="[to]" class="form-textbox" size="50" value="" data-component="to" required="" />
+              <br>
+              <br>
+
+            <label class="form-label form-label-top" for="name of officer" id="label_12_name of officer" style="min-height:13px"><strong>Name of Officer:</strong></label>
+              <input type="text" id="name of officer" name="[name of officer]" class="form-textbox" size="50" value="" data-component="name of officer" required="" />
+              <br>
+              <br>
+
+            <label class="form-label form-label-top" for="position" id="label_12_position" style="min-height:13px"><strong>Position:</strong></label>
+              <input type="text" id="position" name="[position]" class="form-textbox" size="50" value="" data-component="position" required="" />
+              <br>
+              <br>
+
+            <label class="form-label form-label-top" for="department" id="label_12_department" style="min-height:13px"><strong>Department:</strong></label>
+              <input type="text" id="department" name="[department]" class="form-textbox" size="50" value="" data-component="department" required="" />
+              <br>
+              <br>
+
+            <label class="form-label form-label-top" for="claim for" id="label_12_claim for" style="min-height:13px"><strong>Claim for:</strong></label>
+              <input type="text" id="claim for" name="[claim for]" class="form-textbox" size="50" value="" data-component="claim for" required="" />
+              <br>
+              <br>
+
+      <table>
+  <thead>
+  <tr>
+     <th>PARTICULARS</th>
+     <th>AMOUNT</th>
+  </tr>
+  </thead>
+  <tfoot>
+  <tr>
+      <td><INPUT name="particular"></td>
+      <td><INPUT name="amount"></td>
+  </tr>
+  </tfoot>
+  <tbody>
+  <tr>
+     <td><INPUT name="particular"></td>
+     <td><INPUT name="amount"></td>
+  </tr>
+  <tr>
+      <td><INPUT name="particular"></td>
+      <td><INPUT name="amount"></td>
+  </tr>
+  </tbody>
+          <tbody>
+  <tr>
+     <td><INPUT name="particular"></td>
+     <td><INPUT name="amount"></td>
+  </tr>
+          <tbody>
+  <tr>
+     <td><INPUT name="particular"></td>
+     <td><INPUT name="amount"></td>
+  </tr>
+</table>
+      <br>
+<label class="form-label form-label-top" for="total" id="label_12_total" style="min-height:13px">TOTAL</label>
+              <input type="text" id="total" name="[total]" class="form-textbox" size="30" value="" data-component="total" required="" />
+              <br>
+              <br>
+
+      <label for="Amount in words"><strong>Amount in words:</strong></label>
+      <input type="text" class="form-control" size="15" id="Amount in words" name="Amount in words">
+
+      <br>
+      <br>
+
+<div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+      <label for="Signature of claimant">Signature of claimant</label>
+              <input type="text" class="form-control" size="15" id="Signature of claimant" name="Signature of claimant">
+      <label for="date">Date:</label>
+      <input type="text" class="form-control" size="15" id="date" name="date">
+          </div>
+</div>
+      <br>
+
+      <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+      <label for="claim">Claim verified by Section Head(User Dept)</label>
+      <input type="text" class="form-control" size="15" id="claim" name="claim">
+      <label for="date">Date:</label>
+      <input type="text" class="form-control" size="15" id="date" name="date">
+          </div>
+</div>
+      <br>
+
+      <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+      <label for="approved">Approved/Not Approved(Head of Department)</label>
+      <input type="text" class="form-control" size="15" id="approved" name="approved">
+      <label for="date">Date:</label>
+      <input type="text" class="form-control" size="15" id="date" name="date">
+          </div>
+</div>
+      <br>
+
+      <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+      <label for="budget line">Budget Line</label>
+      <input type="text" class="form-control" size="15" id="budget line" name="budget line">
+      <label for="page">Page:</label>
+      <input type="text" class="form-control" size="15" id="page" name="page">
+          </div>
+</div>
+      <br>
+
+      <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+      <label for="certified">Certified(Exp Accountant)</label>
+      <input type="text" class="form-control" size="15" id="certified" name="certified">
+      <label for="date">Date:</label>
+      <input type="text" class="form-control" size="15" id="date" name="date">
+          </div>
+</div>
+      <br>
+
+      <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+      <label for="amount">Amount(fig)</label>
+      <input type="text" class="form-control" size="15" id="amount" name="amount">
+      <label for="account Code">Account Code:</label>
+      <input type="text" class="form-control" size="15" id="account Code" name="account Code">
+          </div>
+</div>
+      <br>
+
+      <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+      <label for="payment authorised">Payment Authorised(Director Finance)</label>
+      <input type="text" class="form-control" size="15" id="payment authorised" name="payment authorised">
+      <label for="date">Date:</label>
+      <input type="text" class="form-control" size="15" id="date" name="date">
+          </div>
+</div>
+      <br>
+
+      <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+      <label for="">Received by:</label>
+      <input type="text" class="form-control" size="15" id="received by" name="received by">
+      <label for="">received or not:</label>
+      <select class="form-dropdown validate[required] form-Received or not" name="Received or not" id="input_5_Received or not" data-component="Received or not" required="">
+						<option value=""> Please Select </option>
+                      <option value="yes">Yes </option>
+                      <option value="no"> No</option>
+					</select>
+      <label for="date">Date:</label>
+      <input type="text" class="form-control" size="15" id="date" name="date">
+          </div>
+</div>
+
+  </form>
+</div>
+</body>
+</html>

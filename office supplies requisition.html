@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title><center>Office Supplies Requisition Form</center></title>
+     <style>
+table, th, td {
+    border: 1px solid black;
+</style>
+</head>
+<div class="header">
+  <img src="C:\Users\rodwell\PycharmProjects\ucc\static\ucc7.jpg" alt="logo" />
+        </div>
+<body>
+<div class="container">
+
+    <h2><center>Office Supplies Requisition Form</center></h2>
+  <form  action="" method="post" role="form">
+    {{ form.csrf }}
+    <br class="form-group">
+
+
+      <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+       <span class="form-sub-label-container" style="vertical-align:top">
+      <label class="desc notranslate" id="title125" for="Field125">Department:</label>
+          <select class="form-dropdown validate[required] form-Department" name="Department" id="input_5_Department" data-component="Department" required="">
+						<option value=""> Please Select </option>
+                      <option value="yes">human resources </option>
+                        <option value="no">procurement</option>
+                        <option value="no">inventory</option>
+                        <option value="no">transport</option>
+                        <option value="no">administration</option>
+                        <option value="no">accounting</option>
+					</select>
+      <label class="form-label form-label-top" for="date" id="label_12_date" style="min-height:13px">Date:</label>
+      <input type="date" id="date">
+       </span>
+          </div>
+      </div>
+      <br>
+      <br>
+      <fieldset>
+
+ <table>
+  <thead>
+  <tr>
+     <th>Sr.NO</th>
+    <th>Description</th>
+      <th>received</th>
+      <th>requested</th>
+     <th>Signature</th>
+     <th>Remarks</th>
+    </tr>
+
+
+</thead>
+  <tfoot>
+  <tr>
+      <td><INPUT name="No" id="No"></td>
+      <td><INPUT name="Description" id="Description"></td>
+      <td><INPUT name="quantity" id="quantity" ></td>
+      <td><INPUT name="quantity" id="quantity"></td>
+      <td><INPUT name="Signature" id="Signature"></td>
+      <td><INPUT name="Remarks" id="Remarks"></td>
+  </tr>
+  </tfoot>
+ </table>
+          <br>
+               <script src="office%20supplies%20requisition.js"></script>
+
+    <input type="button" id="more_fields" onclick="add_fields();" value="Add More" class="btn btn-info" />
+
+
+
+      </fieldset>
+<br>
+      <br>
+  <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+      <label for="Requested by">Requested by:</label>
+      <input type="text" class="form-control validate[required]" size="15" id="Requested by" name="Requested by" required="">
+      <label class="form-label form-label-top" for="date" id="label_12_date" style="min-height:13px">Date:</label>
+      <input type="date" class="form-control validate[required]" id="date" required="">
+        </div>
+          </div>
+      <br>
+      <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+      <label for="Approved by">Approved by:</label>
+      <input type="text" class="form-control validate[required]" size="15" id="Approved by" name="Approved by" required="">
+      <label class="form-label form-label-top" for="date" id="label_12_date" style="min-height:13px">Date:</label>
+      <input type="date" class="form-control validate[required]" id="date" required="">
+        </div>
+          </div>
+      <br>
+      <br>
+      <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>

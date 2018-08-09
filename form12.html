@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><center>FORM 12</center></title>
+    <style>
+    table{
+    width: 100%;
+}
+tr, th, td {
+    border: 1px solid black;
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #1f6893;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+            fieldset{
+                width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #1f6893;
+    border-radius: 4px;
+    box-sizing: border-box;
+            }
+
+        .topnav{
+  overflow: hidden;
+  background-color: rgba(205, 205, 205, 0.25);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #296780;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+</style>
+</head>
+<div class="header">
+   <div class="topnav" id="myTopnav">
+       <a href="index.html" class="active">Home</a>
+       <a href="Procurement%20Services.html" class="active">Procurement Services</a>
+   </div>
+</div>
+<body>
+<div class="container">
+
+
+    <h2><center>FORM 12</center></h2>
+  <form  action="" method="post" role="form">
+    {{ form.csrf }}
+    <br class="form-group">
+      <li><center>THE PUBLIC PROCUREMENT AND DISPOSAL OF PUBLIC ASSETS ACT,2003</center></li>
+      <br>
+      <li><center><strong>RECORD OF BID OPENING</strong></center></li>
+      <br>
+       <fieldset>
+           <legend><center><strong>procurement reference number</strong></center></legend>
+        <div id="cid_13" class="form-input jf-required">
+          <div data-wrapper-react="true">
+            <table>
+  <thead>
+  <tr>
+     <th>code of procuring and disposing entity</th>
+     <th>Supplies/Works/Non-consultancy services</th>
+     <th>financial year</th>
+     <th>sequence number</th>
+  </tr>
+  </thead>
+  <tfoot>
+  <tr>
+      <td><INPUT name="code"></td>
+      <td><INPUT name="works"></td>
+      <td><INPUT name="year"></td>
+      <td><INPUT name="sequence"></td>
+  </tr>
+  </tfoot>
+  <tbody>
+  <tr>
+  </tr>
+  </tbody>
+            </table>
+          </div>
+          </div>
+       </fieldset>
+        <br>
+      <br>
+
+         <fieldset>
+
+      <label><center><strong>Particulars of Procurement</strong></center></label>
+           <span class="form-sub-label-container" style="mso-horizontal-page-align:left">
+
+            <label class="form-label form-label-top" for="subject of procurement" id="label_12_subject of procurement" style="min-height:13px">subject of procurement:</label>
+              <input type="text" id="subject of procurement" name="[subject of procurement]" class="form-textbox" size= "90" value="" data-component="subject of procurement" required="" />
+              <br>
+              <br>
+
+               <label class="form-label form-label-top" for="date and time of bid submission" id="label_12_date and time of bid submission" style="min-height:13px">date and time of bid submission:</label>
+            <input type="text" id="date and time of bid submission"   name="[date and time of bid submission]" class="form-textbox" size="50" value="" data-component="date and time of bid submission" required="" />
+              <br>
+              <br>
+
+               <label class="form-label form-label-top" for="location for bid opening" id="label_12_location for bid opening" style="min-height:13px">Location for bid opening:</label>
+              <input type="text" id="location for bid opening" name="[location for bid opening]" class="form-textbox" size="50" value="" data-component="location for bid opening" required="" />
+              <br>
+              <br>
+
+               <label class="form-label form-label-top" for="type of opening" id="label_12_type of opening" style="min-height:13px">Type of opening:</label>
+              <input type="text" class="form-control" id="type of opening" name="type of opening">
+      <td>
+                  <span class="form-sub-label-container" style="vertical-align:top">
+                    <select class="form-dropdown validate[required] form-type of opening" name="type of opening" id="input_5_type of opening" data-component="type of opening" required="">
+                      <option value=""> Please Select </option>
+                      <option value="technical">Technical</option>
+                      <option value="financial">Financial</option>
+                      <option value="combined">Combined</option>
+                        <option value="other"> Other </option>
+                    </select>
+              <br>
+              <br>
+           </span>
+
+      <br>
+      <br>
+      <fieldset>
+          <label><center><strong>PART 1-PARTICULARS OF BID OPENING</strong></center></label>
+
+          <table>
+  <thead>
+  <tr>
+     <th width="20%">No.</th>
+     <th>Name and address of bidder</th>
+     <th>Currency and price as read out</th>
+     <th>Bid security received(Yes/No)</th>
+     <th>Bid security amount*</th>
+     <th>No of copies</th>
+     <th>Power of attorney*</th>
+
+  </tr>
+  </thead>
+  <tfoot>
+  <tr>
+      <td><INPUT name="No."></td>
+      <td><INPUT name="Name and address of bidder"></td>
+      <td><INPUT name="Currency and price as read out"></td>
+      <td><select size="1" id="row-5-office" name="Bid security received">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+      <td><INPUT name="Bid security amount*"></td>
+      <td><INPUT name="No of copies"></td>
+      <td><INPUT name="Power of attorney"></td>
+
+  </tr>
+  </tfoot>
+   <tfoot>
+  <tr>
+      <td><INPUT name="No."></td>
+      <td><INPUT name="Name and address of bidder"></td>
+      <td><INPUT name="Currency and price as read out"></td>
+      <td><select size="1" id="row-5-office" name="Bid security received">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+      <td><INPUT name="Bid security amount*"></td>
+      <td><INPUT name="No of copies"></td>
+      <td><INPUT name="Power of attorney"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="No."></td>
+      <td><INPUT name="Name and address of bidder"></td>
+      <td><INPUT name="Currency and price as read out"></td>
+      <td><select size="1" id="row-5-office" name="Bid security received">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+      <td><INPUT name="Bid security amount*"></td>
+      <td><INPUT name="No of copies"></td>
+      <td><INPUT name="Power of attorney"></td>
+
+  </tr>
+  </tfoot>
+
+   <tfoot>
+  <tr>
+      <td><INPUT name="No."></td>
+      <td><INPUT name="Name and address of bidder"></td>
+      <td><INPUT name="Currency and price as read out"></td>
+      <td><select size="1" id="row-5-office" name="Bid security received">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+      <td><INPUT name="Bid security amount*"></td>
+      <td><INPUT name="No of copies"></td>
+      <td><INPUT name="Power of attorney"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="No."></td>
+      <td><INPUT name="Name and address of bidder"></td>
+      <td><INPUT name="Currency and price as read out"></td>
+      <td><select size="1" id="row-5-office" name="Bid security received">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+      <td><INPUT name="Bid security amount*"></td>
+      <td><INPUT name="No of copies"></td>
+      <td><INPUT name="Power of attorney"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="No."></td>
+      <td><INPUT name="Name and address of bidder"></td>
+      <td><INPUT name="Currency and price as read out"></td>
+      <td><select size="1" id="row-5-office" name="Bid security received">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+      <td><INPUT name="Bid security amount*"></td>
+      <td><INPUT name="No of copies"></td>
+      <td><INPUT name="Power of attorney"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="No."></td>
+      <td><INPUT name="Name and address of bidder"></td>
+      <td><INPUT name="Currency and price as read out"></td>
+      <td><select size="1" id="row-5-office" name="Bid security received">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+      <td><INPUT name="Bid security amount*"></td>
+      <td><INPUT name="No of copies"></td>
+      <td><INPUT name="Power of attorney"></td>
+
+  </tr>
+  </tfoot>
+
+  <tfoot>
+  <tr>
+      <td><INPUT name="No."></td>
+      <td><INPUT name="Name and address of bidder"></td>
+      <td><INPUT name="Currency and price as read out"></td>
+      <td><select size="1" id="row-5-office" name="Bid security received">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+      <td><INPUT name="Bid security amount*"></td>
+      <td><INPUT name="No of copies"></td>
+      <td><INPUT name="Power of attorney"></td>
+
+  </tr>
+  </tfoot>
+
+   <tfoot>
+  <tr>
+      <td><INPUT name="No."></td>
+      <td><INPUT name="Name and address of bidder"></td>
+      <td><INPUT name="Currency and price as read out"></td>
+      <td><select size="1" id="row-5-office" name="Bid security received">
+      <option value="yes">
+                        Yes
+                    </option>
+                    <option value="no">
+                        No
+                    </option>
+      </select></td>
+      <td><INPUT name="Bid security amount*"></td>
+      <td><INPUT name="No of copies"></td>
+      <td><INPUT name="Power of attorney"></td>
+
+  </tr>
+  </tfoot>
+          </table>
+      </fieldset>
+  </form>
+</div>
+</body>
+</html>
