@@ -1,0 +1,16 @@
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\bin\Debug\E Tolling System.exe.config
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E Tolling System.csprojResolveAssemblyReference.cache
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E_Tolling_System.Properties.Resources.resources
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E_Tolling_System.Register_User.resources
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E Tolling System.csproj.GenerateResource.Cache
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\bin\Debug\E Tolling System.exe
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\bin\Debug\E Tolling System.pdb
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E Tolling System.exe
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E Tolling System.pdb
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E_Tolling_System.Login.resources
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E_Tolling_System.Register_New_TollGate.resources
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E_Tolling_System.Welcome_Admin.resources
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E_Tolling_System.register_compaint.resources
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E_Tolling_System.user_alreadyRegistered.resources
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E_Tolling_System.View_User.resources
+C:\Users\gigabyte\OneDrive\Projects\Secure E tolling System\E Tolling System\E Tolling System\obj\Debug\E_Tolling_System.Cashier_Box.resources
