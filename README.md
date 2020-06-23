@@ -1,2 +1,2 @@
-# kue
-i focus in vb.net, python, c++/c, java, solidity
+# Secure E-tolling 
+A secure tolling system using RFID and GSM technology (as a verification method). The system was developed using C, Arduino and MySQL database
